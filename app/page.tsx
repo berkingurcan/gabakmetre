@@ -35,6 +35,11 @@ export default function Home() {
             <Image src="/zuc.svg" alt="Example SVG" width={100} height={100}/>
           </h2>
         </button>
+        <button onClick={() => setRandomNumber('')}> 
+          <h2 className={`mb-3 text-2xl content-center font-semibold`} >
+            GABAKLIGI RESET
+          </h2>
+        </button>
     </main>
   )
 }
